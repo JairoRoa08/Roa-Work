@@ -54,3 +54,17 @@ feedback.push({
 });
 
 Console.log("Customer Feedback Records:", feedback);
+
+// Task 5
+let inventory = {
+    itemName: "Basketball",
+    stockCount: 50,
+    price: 10.99,
+
+    calculateTotalValue: function(){
+        return this.stockCount * this.price;
+    }
+};
+
+console.log("Inventory Details:", inventory)
+console.log("Total Invenotry Value: $", inventory)
