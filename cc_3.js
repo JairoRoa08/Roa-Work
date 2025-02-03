@@ -13,3 +13,15 @@ let totalOrders = orders.reduce((sum, quantity) => sum+ quantity, 0);
 console.log("Updated Orders:", orders);
 console.log("Total Order Count:", totalOrders);
 
+// Task 3
+let employee = {
+    name: "Luka Doncic",
+    role: "Technician",
+    performanceScore: 75,
+    isActive: true
+}
+
+employee.performanceScore = 99;
+employee.promotionEligible = employee.performanceScore > 90;
+
+console.log("Updated Employee Data:", employee)
