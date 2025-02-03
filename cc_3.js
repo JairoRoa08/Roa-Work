@@ -24,4 +24,33 @@ let employee = {
 employee.performanceScore = 99;
 employee.promotionEligible = employee.performanceScore > 90;
 
-console.log("Updated Employee Data:", employee)
+console.log("Updated Employee Data:", employee);
+
+// Task 4
+let feedback= [
+{
+    customerName: "Anthony Davis",
+    feedbackText: "Great time and i enjoyed winning",
+    rating: 5
+},
+
+{
+    customerName: "Lebron James",
+    feedbackText: "I can't complain and cant wait to be back",
+    rating: 4
+},
+
+{
+    customerName: "Austin Reaves",
+    feedbackText: "I did not enjoy the recent changes",
+    rating: 1
+}
+];
+
+feedback.push({
+    customerName: "Kyrie Irving",
+    feedbackText: "I think the changes made really imrpved the place",
+    rating: 5
+});
+
+Console.log("Customer Feedback Records:", feedback);
